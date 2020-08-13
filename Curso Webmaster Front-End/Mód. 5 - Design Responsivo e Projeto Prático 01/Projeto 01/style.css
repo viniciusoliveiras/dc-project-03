@@ -13,13 +13,15 @@ html, body{
 .center{
     width: 1200px;
     margin: 0 auto;
+    padding: 0 2%;
     
 }
 
 .header{
+    min-width: 1200px;
     width: 100%;
     height: 60px;
-    background-color: #212343;
+    background-color: rgb(33, 35, 67);
 }
 
 .header img{
@@ -27,6 +29,7 @@ html, body{
 }
 
 .container-banner{
+    min-width: 1200px;
     width: 100%;
     height: 557px;
     background-image: url('images/header_bg.png');
@@ -54,7 +57,7 @@ html, body{
 
 .form h2{
     font-weight: normal;
-    color: #999999;
+    color: rgb(153, 153, 153);
     font-size: 21px;
     text-align: center;
     
@@ -68,14 +71,14 @@ html, body{
     display: inline-block;
     width: 100%;
     font-size: 17px;
-    color: #bbbbbb;
+    color: rgb(187, 187, 187);
 }
 
 .form p{
     display: inline-block;
     width: 100%;
     font-size: 17px;
-    color: #bbbbbb;
+    color: rgb(187, 187, 187);
     margin: 20px 0;
 }
 
@@ -83,7 +86,7 @@ html, body{
     margin-top: 8px;
     width: 344px;
     height: 55px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(204, 204, 204);
 }
 
 .form .input-submit-container{
@@ -93,33 +96,33 @@ html, body{
 .form input[type=submit]{
     width: 280px;
     height: 56px;
-    background-color: #363A6D;
+    background-color: rgb(54, 58, 109);
     color: white;
     font-size: 20px;
     position: relative;
     display: inline-block;
     cursor: pointer;
     border-top: 0;
-    border-bottom: 5px groove #4A5097;
+    border-bottom: 5px groove rgb(74, 80, 151);
     border-left: 0;
     border-right: 0;
 }
 
 .form input[type=submit]:hover{
-    background-color: #323665;
+    background-color: rgb(50, 54, 101);
 }
 
 .input-container input[type=text]:focus{
     outline: none;
-    border: 1px solid #323665;
+    border: 1px solid rgb(50, 54, 101);
 }
 
 
 .container-list{
     padding: 30px;
-    margin-top: 40px;
+    margin-top: 100px;
     float: left;
-    width: 619px;
+    width: 519px;
     height: 270px;
     background-color: rgba(33,35,67,0.7);
 }
@@ -133,17 +136,18 @@ html, body{
     color: white;
 }
 
-.container-bottom{
+.container-mid{
+    min-width: 1200px;
     padding: 40px 0;
-    background-color: greenyellow;
+    background-color: rgb(212, 212, 212);
     text-align: center;
 }
 
-.container-bottom h2{
+.container-mid h2{
     font-weight: normal;
 }
 
-.container-bottom p{
+.container-mid p{
     width: 698px;
     margin: 15px 0;
     text-align: justify;
@@ -159,4 +163,35 @@ html, body{
     height: 40px;
     background-image: url(images/arrow.png);
     background-size: 100%;
+}
+
+.section-bottom{
+    min-width: 1200px;
+    padding: 60px 0;
+}
+
+.section-bottom h2{
+    text-align: center;
+    color: rgb(70, 38, 99);
+    font-weight: normal;
+}
+
+.container-section{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.container-single{
+    float: left;
+    width: 33.33%;
+    padding: 30px;
+}
+
+.container-single p{
+    text-align: justify;
+    padding: 10px 25px;
+}
+
+.container-single img{
+    width: 70px;
 }
