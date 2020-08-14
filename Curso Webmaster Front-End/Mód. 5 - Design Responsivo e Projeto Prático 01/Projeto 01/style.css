@@ -10,6 +10,11 @@ html, body{
     /*background-color: greenyellow; retirar depois*/
 }
 
+.clear{
+    clear: both;
+
+}
+
 .center{
     width: 1200px;
     margin: 0 auto;
@@ -183,7 +188,7 @@ html, body{
 
 .container-single{
     float: left;
-    width: 33.33%;
+    width: 33.3333%;
     padding: 30px;
 }
 
@@ -194,4 +199,20 @@ html, body{
 
 .container-single img{
     width: 70px;
+}
+
+.footer{
+    border-top: 2px solid rgb(136, 136, 136);
+    padding: 20px 0;
+    text-align: center;
+    color: rgb(136, 136, 136);
+}
+
+.footer p{
+    margin: 8px;
+}
+
+.footer img{
+    margin-right: -4px;
+    width: 10%;
 }
