@@ -7,7 +7,6 @@
 
 html, body{
     height: 100%;
-    /*background-color: greenyellow; retirar depois*/
 }
 
 .clear{
@@ -152,6 +151,7 @@ html, body{
 
 .container-mid p{
     width: 100%;
+    max-width: 768px;
     margin: 15px 0;
     text-align: justify;
     display: inline-block;
@@ -186,7 +186,7 @@ html, body{
 .container-single{
     float: left;
     width: 33.3333%;
-    padding: 30px;
+    padding: 10px;
 }
 
 .container-single p{
@@ -212,4 +212,101 @@ html, body{
 .footer img{
     margin-right: -4px;
     width: 10%;
+}
+
+@media screen and (max-width: 1024px){
+    .header{
+        height: auto;
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    .header img{
+        margin: 0;
+    }
+
+    .container-list{
+        padding: 30px 0;
+        float: left;
+        height: auto;
+        width: 40%;
+        max-width: 500px;
+        margin-top: 30px;
+    }
+
+    .container-banner{
+        width: 100%;
+        padding: 40px 2%;
+        height: auto;
+        text-align: center;
+    }
+
+    .form{
+        max-width: 400px;
+        padding: 10px;
+        width: 60%;
+        height: 100%;
+        float: right;
+        top: 0;
+    }
+
+    .input-container input[type=text]{
+        width: 100%;
+        height: 55px;
+    }
+        
+    .form input[type=submit]{
+        width: 100%;
+        max-width: 280px;
+        height: 56px;        
+    }
+
+    .footer img{
+        margin-right: -4px;
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container-mid p{
+        width: 100%;
+        max-width: 768px;
+        margin: 15px 0;
+        text-align: justify;
+        display: inline-block;
+        padding: 3%;
+    }
+    
+    .container-list{
+        margin-top: 0;
+        float: none;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .form{
+        float: none;
+        display: inline-block;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .container-single{
+        float: none;
+        display: inline-block;
+        width: 100%;
+        max-width: 600px;
+        padding: 30px;
+    }
+
+    .container-single p{
+        text-align: justify;
+    }
+
+    .footer img{
+        margin-right: -4px;
+        width: 100%;
+        max-width: 150px;
+    }
 }
