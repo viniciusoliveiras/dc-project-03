@@ -70,8 +70,17 @@ section.main {
 }
 
 .img-pessoas {
+  margin-top: 10px;
   float: left;
   width: 60%;
+}
+
+.img-pessoas h2 {
+  color: #3c579a;
+  margin-bottom: 5px;
+  float: left;
+  width: 70%;
+  font-size: 20px;
 }
 
 .img-pessoas img {
@@ -140,4 +149,62 @@ form.criar-conta input[type="submit"] {
   font-size: 20px;
 
   cursor: pointer;
+}
+
+form .w100 h2 {
+  margin-top: 10px;
+  color: black;
+  font-size: 15px;
+  margin-top: 8px;
+}
+
+form select.nascimento {
+  margin-top: 5px;
+  float: left;
+  height: 30px;
+}
+
+.input-radio {
+  margin: 10px 10px;
+  float: left;
+}
+
+.input-radio h2 {
+  display: inline-block;
+}
+
+.input-radio input[type="radio"] {
+  width: auto !important;
+  display: inline-block;
+}
+
+section.linguas {
+  padding: 30px 0;
+  background: white;
+}
+
+section.linguas a{
+  font-size: 10px;
+  color: #365899;
+  text-decoration: none;
+  padding-right: 15px;
+}
+
+section.linguas a.selected-lingua{
+  color: #737373;
+}
+
+section.linguas  .center{
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+section.linguas .center.informacoes{
+  font-size: 10px;
+  color: #365899;
+  text-decoration: none;
+  padding-right: 15px;
+  border-bottom: none;
 }
