@@ -49,7 +49,7 @@ form.form-login {
   margin-top: 4px;
   border: none;
   height: 20px;
-  padding-left: 4px;
+  padding-left: 5px;
 }
 
 .form-element input[type="submit"] {
@@ -183,28 +183,72 @@ section.linguas {
   background: white;
 }
 
-section.linguas a{
+section.linguas a {
   font-size: 10px;
   color: #365899;
   text-decoration: none;
   padding-right: 15px;
 }
 
-section.linguas a.selected-lingua{
+section.linguas a.selected-lingua {
   color: #737373;
 }
 
-section.linguas  .center{
+section.linguas .center {
   padding-left: 8px;
   padding-right: 8px;
   padding-bottom: 10px;
   border-bottom: 1px solid #ccc;
 }
 
-section.linguas .center.informacoes{
+section.linguas .center.informacoes {
   font-size: 10px;
   color: #365899;
   text-decoration: none;
   padding-right: 15px;
   border-bottom: none;
 }
+
+@media screen and (max-width: 768px) {
+  .logo {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  form.form-login {
+    margin-top: 15px;
+    display: inline-block;
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .form-login .form-element {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .form-element p {
+    color: white;
+    font-size: 14px;
+  }
+
+  .form-element input[type="email"],
+  .form-element input[type="password"] {
+    margin-top: 4px;
+    border: none;
+    height: 20px;
+    padding-left: 4px;
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .img-pessoas{
+    display: none;
+  }
+
+  .abrir-conta{
+    width: 100%
+  }
+} 
