@@ -16,7 +16,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1700px;
   margin: 0 auto;
 }
 
@@ -147,6 +147,35 @@ section.chamada p {
   font-weight: normal;
 }
 
+.flex-mosaico {
+  display: flex;
+}
+
+.item-1-mosaico {
+  background-position: center;
+  background-size: cover;
+  width: 70%;
+}
+.item-2-mosaico {
+  width: 40%;
+  padding: 100px 40px;
+  text-align: justify;
+  background-color: rgb(230, 230, 230);
+}
+
+footer{
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer img{
+  width: 120px;
+}
+
+footer p{
+  margin-top: 8px;
+}
+
 @media screen and (max-width: 960px) {
   .bg {
     padding: 40px 0;
@@ -161,6 +190,21 @@ section.chamada p {
 
     position: static;
     display: inline-block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .flex-mosaico {
+    display: block;
+  }
+
+  .item-1-mosaico {
+    width: 100%;
+    padding-top: 80%;
+  }
+
+  .item-2-mosaico {
+    width: 100%;
   }
 }
 
