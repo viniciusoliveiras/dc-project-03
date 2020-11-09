@@ -16,13 +16,13 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1700px;
+  max-width: 2560px;
   margin: 0 auto;
 }
 
 header {
   background: rgb(180, 180, 180);
-  padding: 10px 2% 40px 2%;
+  padding: 10px 10% 40px 10%;
 }
 
 .logo-1 {
@@ -63,8 +63,8 @@ header {
   top: -2.5%;
   width: 400px;
   height: 105%;
-  background-color: white;
-  box-shadow: 1px 1px 2px 1px rgb(180, 180, 180);
+  background-color: rgba(255, 255, 255, 0.763);
+  /* box-shadow: 1px 1px 2px 1px rgb(180, 180, 180); */
 }
 
 .form-container h2 {
@@ -73,7 +73,7 @@ header {
   font-weight: normal;
   color: rgb(0, 0, 0);
   font-size: 18px;
-  background-color: rgb(210, 210, 210);
+  background-color: rgba(210, 210, 210, 0.5);
 }
 
 .form-container form {
@@ -106,7 +106,7 @@ header {
 }
 
 .form-container form input[type="submit"] {
-  background-color: rgb(3, 60, 80);
+  background-color: #346889;
   text-transform: uppercase;
   color: white;
   width: 100%;
@@ -122,9 +122,20 @@ section.chamada {
   z-index: 1;
 }
 
+.icone-seta{
+  position: absolute;
+  left: 50%;
+  top:630px;
+  transform: translateX(-50%);
+  width: 64px;
+  height: 64px;
+  background-image: url('../images/arrow.png');
+  background-size: 100%;
+}
+
 section.chamada .container {
   padding: 70px 0 50px;
-  background-color: rgb(41, 82, 109);
+  background-color: #346889;
 }
 
 section.chamada h2 {
@@ -165,15 +176,12 @@ section.chamada p {
 
 footer{
   text-align: center;
-  padding: 20px 0;
+  padding: 20px 0;  background-color: rgb(230, 230, 230);
+
 }
 
 footer img{
-  width: 120px;
-}
-
-footer p{
-  margin-top: 8px;
+  width: 15%;
 }
 
 @media screen and (max-width: 960px) {
@@ -190,6 +198,16 @@ footer p{
 
     position: static;
     display: inline-block;
+  }
+  .icone-seta{
+    position: absolute;
+    left: 50%;
+    top:730px;
+    transform: translateX(-50%);
+    width: 54px;
+    height: 54px;
+    background-image: url('../images/arrow.png');
+    background-size: 100%;
   }
 }
 
@@ -218,5 +236,16 @@ footer p{
     margin-top: 10px;
     display: inline-block;
     float: none;
+  }
+
+  .icone-seta{
+    position: absolute;
+    left: 50%;
+    top:825px;
+    transform: translateX(-50%);
+    width: 44px;
+    height: 44px;
+    background-image: url('../images/arrow.png');
+    background-size: 100%;
   }
 }
