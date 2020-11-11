@@ -128,6 +128,7 @@ section.sessao1 {
 
 section.sessao1 .container {
   max-width: 1000px;
+  height: calc(100% + 30px);
 }
 
 .texto-sessao1 {
@@ -178,7 +179,7 @@ section.sessao1 .container {
 
 .device-sessao1 {
   width: 50%;
-  height: 430px;
+  height: 100%;
   position: relative;
   top: -30px;
   float: left;
@@ -212,9 +213,120 @@ section.sessao1 .container {
 }
 
 .sessao2 img {
+  position: relative;
+  top: 70px;
   width: 100%;
-  margin-top: 40px;
+  margin-top: 10px;
 }
+
+.sessao3 {
+  width: 100%;
+}
+
+.parte1 {
+  width: 50%;
+  float: left;
+  padding: 140px 0 90px 0;
+  background-color: #835fa8;
+  color: white;
+}
+
+.wrapper-part1 {
+  max-width: 600px;
+  float: right;
+  padding-right: 50px;
+}
+
+.parte1 h2 {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 25px;
+}
+
+.parte1 p {
+  margin-top: 10px;
+  line-height: 35px;
+  font-size: 15px;
+  text-align: justify;
+}
+
+.parte2 {
+  float: left;
+  width: 50%;
+  padding: 140px 0 90px 0;
+  /* background-color: #472663; */
+}
+
+.sobre-autor {
+  max-width: 600px;
+  padding-left: 30px;
+  float: left;
+}
+
+.titulo-autor {
+  float: left;
+  width: 100%;
+}
+
+.wrapper-titulo-autor {
+  /* width: calc(100% - 40px); */
+  float: left;
+}
+
+.titulo-autor h2 {
+  color: #232323;
+  font-weight: 400;
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+.titulo-autor p {
+  font-size: 15px;
+  color: #232323;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.titulo-autor .img-autor {
+  float: left;
+  width: 40px;
+  height: 40px;
+  background-color: #232323;
+  border-radius: 20px;
+  position: relative;
+  top: -4px;
+}
+
+.texto-autor {
+  width: 100%;
+  margin-top: 10px;
+  float: left;
+  text-align: justify;
+}
+
+.texto-autor p {
+  font-size: 15px;
+  color: #232323;
+}
+
+.slider-bullets {
+  width: 100%;
+  float: left;
+  margin-top: 12px;
+  padding-left: 30px;
+}
+
+.slider-bullets span {
+  width: 16px;
+  height: 16px;
+  float: left;
+  background-color: grey;
+  border-radius: 8px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+/* MEDIA QUERIES */
 
 @media only screen and (max-width: 830px) {
   .chamada1 {
