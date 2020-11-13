@@ -1,0 +1,30 @@
+.sessao2 {
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: white;
+    text-align: center;
+    color: #472663;
+  }
+  
+  .sessao2 .container {
+    max-width: 1000px;
+  }
+  
+  .sessao2 h2 {
+    font-size: 35px;
+    font-weight: 300;
+  }
+  
+  .sessao2 p {
+    max-width: 1000px;
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 15px;
+  }
+  
+  .sessao2 img {
+    position: relative;
+    top: 70px;
+    width: 100%;
+    margin-top: 10px;
+  }
