@@ -62,7 +62,7 @@ header {
     width: 160px;
     height: 40px;
     position: relative;
-    top: -5;
+    top: -10;
     float: left;
     background-image: url('../images/logo-danki.png');
     background-size: contain;
