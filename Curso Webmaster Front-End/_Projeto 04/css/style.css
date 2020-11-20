@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+.container{
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+header{
+    padding: 20px 2%;
+}
+
+header .logo img{
+    float: left;
+    width: 236px;
+}
+
+header nav{
+    float: right;
+}
+
+nav ul{
+    padding: 8px 0;
+    list-style: none;
+}
+
+nav ul li{
+    float: left;
+    font-size: 13px;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+
+ul a{
+    color: #b4b4b4;
+    text-decoration: none;
+}
