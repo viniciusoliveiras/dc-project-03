@@ -1,52 +1,112 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
-html,body{
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
 
-.clear{
-    clear: both;
+.clear {
+  clear: both;
 }
 
-.container{
-    max-width: 1080px;
-    width: 100%;
-    margin: 0 auto;
+.container {
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 /* HEADER */
 
-header{
-    padding: 20px 2%;
+header {
+  padding: 20px 2%;
 }
 
-header .logo img{
-    float: left;
-    width: 236px;
+header .logo img {
+  float: left;
+  width: 236px;
 }
 
-header nav{
-    float: right;
+header nav {
+  float: right;
 }
 
-nav ul{
-    padding: 8px 0;
-    list-style: none;
+nav ul {
+  padding: 8px 0;
+  list-style: none;
 }
 
-nav ul li{
-    float: left;
-    font-size: 13px;
-    padding: 0 20px;
-    text-transform: uppercase;
+nav ul li {
+  float: left;
+  font-size: 13px;
+  padding: 0 20px;
+  text-transform: uppercase;
 }
 
-ul a{
-    color: #b4b4b4;
-    text-decoration: none;
+ul a {
+  color: #b4b4b4;
+  text-decoration: none;
+}
+
+/* MOISAICO */
+
+.mosaico-single {
+  float: left;
+  width: calc(100% / 6);
+}
+
+.img-mosaico-single {
+  width: 100%;
+  padding-top: 100%;
+  border: 5px solid white;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section.servicos .container {
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: -30px;
+  text-align: center;
+}
+
+section.servicos .box-servico {
+  background-image: url("../images/icone_dente.png");
+  background-size: 18px 18px;
+  background-position: center calc(100% - 5px);
+  background-repeat: no-repeat;
+}
+
+section.servicos .box-servico h2 {
+  color: white;
+  font-weight: normal;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+section.servicos .box-servico p {
+  color: white;
+  font-weight: normal;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+section.servicos .box-servico:nth-of-type(1),
+section.servicos .box-servico:nth-of-type(3) {
+  width: 30%;
+  padding: 30px 2%;
+  background-color: #576975;
+}
+
+section.servicos .box-servico:nth-of-type(2) {
+  width: 40%;
+  padding: 45px 2%;
+  background-color: #688293;
+  background-image: none;
 }
