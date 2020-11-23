@@ -34,6 +34,28 @@ header .logo img {
 nav.menu-mobile {
   display: none;
   float: right;
+  width: 28px;
+  height: 28px;
+  margin-top: 5px;
+  background-image: url('../images/menu-mobile.png');
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+nav.menu-mobile ul{
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 60px;
+  text-align: center;
+  width: 100%;
+  background-color: white;
+  z-index: 9;
+}
+
+nav.menu-mobile ul li{
+  padding: 10px 0;
+  text-transform: uppercase;
 }
 
 header nav.menu-desktop {
@@ -163,6 +185,18 @@ section.perfil-container .img-perfil {
   margin-top: 8px;
 }
 
+section.video{
+  padding: 50px 0;
+}
+
+section.videos .box-video{
+  float: left;
+  width: calc(100% / 3);
+  padding-top: calc(33.3% * 0.6);
+  background-color: green;
+  border: 1px solid rgb(0, 60, 0);
+}
+
 @media screen and (max-width: 768px) {
   nav.menu-desktop {
     display: none;
@@ -201,9 +235,15 @@ section.perfil-container .img-perfil {
     padding: 0 30px;
   }
 
+  section.perfil-container .perfil-wrapper{
+    padding-top: 0;
+  }
+
   section.perfil-container .perfil-wrapper2 {
     display: inline-block;
     text-align: center;
+    height: auto;
+    position: static;
   }
 
   section.perfil-container .img-perfil {
