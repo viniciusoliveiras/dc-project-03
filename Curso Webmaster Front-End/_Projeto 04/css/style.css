@@ -159,7 +159,6 @@ section.perfil-container .perfil-wrapper2 {
   left: 0;
   top: 0;
   display: flex;
-  align-items: center;
 }
 
 section.perfil-container .img-perfil {
@@ -171,7 +170,7 @@ section.perfil-container .img-perfil {
 
 .texto-perfil {
   width: 60%;
-  padding: 0 30px;
+  padding: 20px 30px;
 }
 
 .texto-perfil h2 {
@@ -187,7 +186,7 @@ section.perfil-container .img-perfil {
 }
 
 section.video {
-  padding: 50px 0;
+  padding: 70px 0;
 }
 
 section.videos .box-video {
@@ -222,7 +221,7 @@ section.tratamentos h2 {
 }
 
 section.tratamentos .container {
-  padding: 80px 0;
+  padding: 30px 0;
 }
 
 .tratamento-single {
@@ -329,6 +328,7 @@ section.depoimentos .depoimento-single {
 
 section.contato {
   padding: 60px 2%;
+  background-color: rgb(230,230,230);
 }
 
 section.contato h2 {
