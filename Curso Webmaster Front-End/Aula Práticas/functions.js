@@ -1,4 +1,8 @@
 window.onload = function () {
-  let idade = 2020 - 2001;
-  console.log(idade);
+  let nome = 'a'
+  if(nome != 'Vinícius'){
+    console.log('Olá, estranho')
+  } else {
+    console.log('Olá, Vinícius')
+  }
 };
