@@ -45,7 +45,7 @@
   addMarker("", conteudo);
 };*/
 
-let dreamTeam = [-22.903185, -43.1885066]
+let dreamTeam = [-22.903185, -43.1885066];
 
 var mymap = L.map("mapa").setView(dreamTeam, 15);
 
@@ -53,18 +53,4 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
   maxZoom: 18,
 }).addTo(mymap);
 
-var marker = L.marker(dreamTeam).addTo(mymap);
-
-var popup = L.popup({
-  minWitdh: 240,
-  minHeight: 240,
-});
-
-function onMarkerClick(e) {
-  popup
-    .setLatLng([-22.903185 + 0.0008, -43.1885066])
-    .setContent("<h1>Dream Team HQ</h1>")
-    .openOn(mymap);
-}
-
-marker.on("click", onMarkerClick);
+var marker = L.marker(dreamTeam).addTo(mymap).bindPopup("Dream Team HQ");
