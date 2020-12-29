@@ -64,10 +64,16 @@ header .logo {
   position: relative;
   top: -10;
   float: left;
-  background-image: url("../images/logo-danki.png");
+  /* background-image: url("../images/logo-danki.png"); */
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+header .logo h2{
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 header nav.desktop-menu ul {
