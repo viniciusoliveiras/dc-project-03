@@ -1,0 +1,31 @@
+section.diferenciais {
+  padding: 50px 2%;
+}
+
+section.diferenciais .container > h2 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 300px;
+  color: #472563;
+}
+
+.box-diferenciais {
+  margin-top: 40px;
+}
+
+.box-single-difer {
+  float: left;
+  width: 33.3%;
+  padding: 0 2%;
+}
+
+.box-single-difer h2{
+    font-size: 55px;
+    color: #472563;
+    text-align: center;
+}
+
+.box-single-difer p{
+    color: rgb(100, 100, 100);
+    text-align: justify;
+}

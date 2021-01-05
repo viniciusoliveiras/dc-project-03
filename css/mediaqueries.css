@@ -77,6 +77,21 @@
     .sessao2 h2 {
       font-size: 30px;
     }
+
+    .box-single-difer{
+      width: 100%;
+      margin-top: 3%;
+      text-align: center;
+    }
+
+    .box-single-difer:nth-of-type(1){
+      margin-top: 0;
+    }
+
+    .box-single-difer p{
+      max-width: 500px;
+      display: inline-block;
+    }
   
     section.sessao4 .container {
       text-align: center;
